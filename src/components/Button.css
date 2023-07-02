@@ -1,0 +1,20 @@
+button{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.btnReiniciar:hover{
+    background-color: rgb(245, 125, 56);
+    color: black;
+}
+
+.btnClicker:hover{
+    background-color: rgb(64, 236, 41);
+    color: black;
+}
+
