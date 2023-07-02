@@ -1,5 +1,51 @@
 h1{
     color: yellowgreen;
     font-size: 3rem;
-    margin: 50px auto;
+    margin: 20px auto;
+    text-transform: uppercase;
+}
+
+.counter-container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 30px;
+}
+
+/* Media Querys ******************/
+
+
+@media only screen and (min-width: 600px){
+
+    .counter-container{
+        width: 80%;
+    }
+
+    .buttonsContainer{
+        
+        flex-direction: row;
+        
+    }
+
+}
+
+
+
+@media only screen and (min-width: 1024px)  {
+
+    .counter-container{
+        width: 40%;
+    }
+
 }

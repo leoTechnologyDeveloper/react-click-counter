@@ -30,9 +30,11 @@ function App() {
         <div className="counter-container">
           <h1>Click Counter </h1>
           <Number numberClicks={numClicks}/>
+          <div className="buttonsContainer">
           <Button textButton="Disminuir" handleclick={decrementar} isClicker={true}/>
           <Button textButton="Reiniciar" handleclick={reiniciar} isClicker={false}/>
           <Button textButton="Aumentar" handleclick={incrementar} isClicker={true}/>
+          </div>
         </div>
       </div>
 
